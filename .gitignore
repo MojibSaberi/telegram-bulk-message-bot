@@ -1,0 +1,6 @@
+# Sensitive files
+config.py
+database.json
+my_session.session
+__pycache__/
+*.pyc
