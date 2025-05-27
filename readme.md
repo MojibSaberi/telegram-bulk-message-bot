@@ -23,22 +23,24 @@ A Python-based Telegram bot designed for sending bulk messages to a list of user
    ```bash
    git clone https://github.com/MojibSaberi/telegram-bulk-message-bot.git
    cd telegram-bulk-message-bot
+   ```
    
 2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
-
+   ```
+   
 3. **Set up configuration:**
     Copy the example configuration file:
    ```bash
    cp config.example.py config.py
-
+   ```
    Edit config.py and replace the placeholder values with your Telegram API ID, API Hash, phone number, bot token, and optional 2FA password
-
 
 4. **Run the bot:**
    ```bash
    python main.py
+   ```
 
 ## Usage
 - Start the bot by sending the /start command to view available commands.
@@ -51,7 +53,7 @@ A Python-based Telegram bot designed for sending bulk messages to a list of user
    chat_id
    123456789
    987654321
-
+   ```
 
 ## Project Structure
    ```plaintext
@@ -66,14 +68,11 @@ A Python-based Telegram bot designed for sending bulk messages to a list of user
    ├── .gitignore          # Files and directories to ignore
    ├── README.md           # Project documentation
    ├── LICENSE             # MIT License file
-
-
+   ```
 
 ## Dependencies
 - telethon==1.36.0: For interacting with Telegram's API to send messages.
 - python-telegram-bot==20.7: For handling bot commands and user interactions
-
-
 
 ## Notes
 - Security: Never share your config.py file or database.json as they contain sensitive information (API credentials and user chat IDs).
@@ -81,16 +80,11 @@ A Python-based Telegram bot designed for sending bulk messages to a list of user
 - Legal Compliance: Ensure that the use of this bot adheres to Telegram's Terms of Service and local regulations regarding bulk messaging.
 - Database: User chat IDs and messages are stored in database.json. This file is automatically created when you add users or messages
 
-
-
 ## Contributing
 Contributions are welcome! 
 
-
-
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
 
 ## Contact
 For questions, feedback, or support, please reach out via realmojib@gmail.com
